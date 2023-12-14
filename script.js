@@ -2,7 +2,7 @@ import utils from './utils.js';
 import RNA from './RNA.js';
 import controls from './controls.js';
 
-const SAMPLES = 2; // Número de amostras (agentes) no algoritmo genético
+const SAMPLES = 20; // Número de amostras (agentes) no algoritmo genético
 const game = Runner.instance_; // Instância do jogo "Runner"
 let dinoList = []; // Lista de dinossauros
 let dinoIndex = 0; // Índice do dinossauro atual na lista
